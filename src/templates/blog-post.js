@@ -96,10 +96,8 @@ export const pageQuery = graphql`
         date
         category
         description
-        location
         featured_post
         picture
-        gallery
       }
     }
   }

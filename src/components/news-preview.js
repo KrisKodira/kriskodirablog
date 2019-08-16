@@ -24,7 +24,6 @@ const NewsPreview = ({ article }) => {
         }}
       />
       <p>Kategorie: {article.frontmatter.category}</p>
-      <p>Ort: {article.frontmatter.location}</p>
       <p>Bild: {article.frontmatter.picture} <Image alt="Gatsby in Space" filename={article.frontmatter.picture} /></p>
     </div>)
 }

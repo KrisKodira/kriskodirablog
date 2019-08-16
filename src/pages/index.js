@@ -49,7 +49,6 @@ export const pageQuery = graphql`
             description
             category
             featured_post
-            location
           }
         }
       }

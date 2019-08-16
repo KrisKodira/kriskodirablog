@@ -29,7 +29,7 @@ function Nav() {
                     padding: `1rem`,
                   }}
                 >
-                  <Link style={{ color: `black` }} to={link.link}>
+                  <Link to={link.link}>
                     {link.name}
                   </Link>
                 </li>
