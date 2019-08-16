@@ -1,0 +1,18 @@
+---
+label: Unterseite
+hide_body: false
+fields:
+- type: text
+  name: path
+  label: Pfad
+  description: Pfad der Seite in der URL Leiste
+- type: text
+  name: title
+  label: Titel
+  description: Titel der Seite
+pages:
+- content/pages/privacy-policy.md
+- content/pages/imprint.md
+- content/pages/contact.md
+- content/pages/business.md
+- content/pages/about.md

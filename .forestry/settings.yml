@@ -1,0 +1,46 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: ''
+webhook_url: 
+sections:
+- type: heading
+  label: Blog
+- type: directory
+  path: content/blog
+  label: Blog Posts
+  create: all
+  match: "**/*"
+  templates:
+  - blog-post
+- type: heading
+  label: Unterseiten
+- type: document
+  path: content/pages/about.md
+  label: About
+- type: document
+  path: content/pages/business.md
+  label: Business
+- type: document
+  path: content/pages/contact.md
+  label: Contact
+- type: document
+  path: content/pages/imprint.md
+  label: Imprint
+- type: document
+  path: content/pages/privacy-policy.md
+  label: Privacy Policy
+upload_dir: content/assets
+public_path: ''
+front_matter_path: ''
+use_front_matter_path: true
+file_template: ":filename:"
+instant_preview: true
+build:
+  preview_output_directory: public
+  install_dependencies_command: yarn install
+  preview_docker_image: node:10
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: npm run build
+  preview_command: gatsby build
