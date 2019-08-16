@@ -14,10 +14,8 @@ fields:
   config:
     required: true
     options:
-    - Crisis / Development
-    - Explore
-    - Printed
-    - Portrait
+    - Development
+    - Random Phone Pictures
     source:
       type: simple
       section: 
@@ -56,16 +54,11 @@ fields:
   type: boolean
   label: Featured Post?
   description: Ist der Post auf der Startseite sichtbar?
-- name: location
-  type: text
-  config:
-    required: false
-  label: Ort
-  description: Der Ort des Posts
 - name: gallery
   type: image_gallery
   config: {}
   label: Galerie
   description: Bildergalerie des Posts
-pages:
-- content/blog/aha/was-ist-da-los.md
+- name: published
+  type: boolean
+  label: Published
