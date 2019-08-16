@@ -1,0 +1,7 @@
+---
+label: Config
+hide_body: true
+fields:
+- type: file
+  name: header
+  label: header

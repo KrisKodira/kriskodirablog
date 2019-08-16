@@ -9,7 +9,6 @@ sections:
 - type: document
   path: content/config.md
   label: Config
-  match: "**/*"
 - type: heading
   label: Blog
 - type: directory
