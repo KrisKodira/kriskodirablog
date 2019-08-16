@@ -5,3 +5,5 @@ fields:
 - type: file
   name: header
   label: header
+  config:
+    maxSize: '5'
