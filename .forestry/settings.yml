@@ -5,6 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Config
+- type: document
+  path: content/config.md
+  label: Config
+  match: "**/*"
+- type: heading
   label: Blog
 - type: directory
   path: content/blog
@@ -18,9 +24,6 @@ sections:
 - type: document
   path: content/pages/about.md
   label: About
-- type: document
-  path: content/pages/business.md
-  label: Business
 - type: document
   path: content/pages/contact.md
   label: Contact
