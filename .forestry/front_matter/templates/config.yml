@@ -7,3 +7,5 @@ fields:
   label: header
   config:
     maxSize: '5'
+pages:
+- content/config.md
