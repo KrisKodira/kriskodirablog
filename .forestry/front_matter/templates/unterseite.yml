@@ -11,8 +11,8 @@ fields:
   label: Titel
   description: Titel der Seite
 pages:
-- content/pages/privacy-policy.md
-- content/pages/imprint.md
-- content/pages/contact.md
-- content/pages/business.md
 - content/pages/about.md
+- content/pages/business.md
+- content/pages/contact.md
+- content/pages/imprint.md
+- content/pages/privacy-policy.md

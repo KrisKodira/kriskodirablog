@@ -35,7 +35,6 @@ public_path: ''
 front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"
-instant_preview: true
 build:
   preview_output_directory: public
   install_dependencies_command: yarn install
@@ -43,4 +42,3 @@ build:
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: npm run build
-  preview_command: gatsby build
