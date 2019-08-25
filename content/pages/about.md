@@ -5,7 +5,7 @@ title: About
 ---
 # Welcome to my Blog!
 
-![](/content/assets/profile-pic.jpg)
+![](/content/assets/profile-pic-2.jpg)
 
 Thats me!a
 
