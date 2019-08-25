@@ -33,7 +33,7 @@ sections:
   path: content/pages/privacy-policy.md
   label: Privacy Policy
 upload_dir: content/assets
-public_path: "/content/assets"
+public_path: "../assets"
 front_matter_path: content/assets
 use_front_matter_path: false
 file_template: ":filename:"
