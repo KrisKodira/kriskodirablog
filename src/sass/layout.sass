@@ -3,6 +3,12 @@ body
   color: black;
   font-family: 'Merriweather', serif;
 
+h1
+  font-family: 'Merriweather', serif !important;
+
+.gatsby-resp-image-wrapper
+  margin-left: 0 !important
+
 a
   text-decoration: none
   box-shadow: none
@@ -91,3 +97,20 @@ article
 
 img
   display: block
+
+.blogPost
+  width: 100%
+  .articleImage
+    overflow: hidden
+    position: relative
+    margin-bottom: 1rem
+    .gatsby-image-wrapper
+      height: 600px
+      max-height: 600px
+  img
+    min-width: 100%
+    min-height: 100%
+    position: absolute
+    top: 50% !important
+    left: 50% !important
+    transform: translate(-50%, -50%);

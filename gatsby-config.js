@@ -65,7 +65,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 1000,
             },
           },
           {
@@ -76,6 +76,12 @@ module.exports = {
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
+          {
+            resolve: "gatsby-remark-normalize-paths",
+            options: {
+                pathFields: ["."],
+            },
+          },
           `gatsby-remark-smartypants`,
           `gatsby-remark-lazy-load`,
         ],
