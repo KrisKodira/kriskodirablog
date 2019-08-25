@@ -1,3 +1,93 @@
 body
-  background-color: #262e44;
-  color: white;
+  background-color: white;
+  color: black;
+  font-family: 'Merriweather', serif;
+
+a
+  text-decoration: none
+  box-shadow: none
+  color: black
+
+p
+  font-weight: 100
+  color: #666
+
+nav
+  display: flex
+  justify-content: space-between
+  box-shadow: 0 1px 0 0 currentColor;
+  margin-bottom: 4rem
+  .logo
+    font-size: 4rem
+    font-weight: 700
+  ul
+    display: flex
+    justify-content: flex-end
+    align-items: flex-end
+    li
+      padding: 1rem
+      padding-bottom: 0
+      margin-bottom: 0
+    a:hover, a.active
+        box-shadow: 0 1px 0 0 currentColor;
+
+main
+  width: 100%
+  display: flex
+  flex-wrap: wrap
+
+article
+  display: flex
+  min-height: 400px
+  flex-grow: 1;
+  flex-basis: 0;
+  flex: 1 1 33.33%
+  max-width: 33.33%
+  flex-direction: column
+  box-sizing: border-box
+  padding: 0.8rem
+  padding-bottom: 6rem
+  h3
+    font-weight: 400
+    margin-top: 1rem
+    font-size: 2rem
+    margin-bottom: 0.4rem
+  small, strong
+    display: block
+  .articleImage
+    overflow: hidden
+    position: relative
+    margin-bottom: 1rem
+    .gatsby-image-wrapper
+      height: 310px
+      max-height: 310px
+  img
+    min-width: 100%
+    min-height: 100%
+    position: absolute
+    top: 50% !important
+    left: 50% !important
+    transform: translate(-50%, -50%);
+  div
+    flex: 1
+  &:first-child
+    flex-direction: row
+    max-width: unset
+    flex: 1 1 100%
+    h3
+      font-size: 3rem
+      font-weight: 700
+      margin-top: 3.5rem
+      margin-bottom: 1rem
+    div
+      flex: 1 1 40%
+    .articleImage
+      padding-right: 4rem
+      flex: 1 1 60% 
+      .gatsby-image-wrapper
+        height: 500px
+        max-height: 500px
+    
+
+img
+  display: block

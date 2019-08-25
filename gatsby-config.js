@@ -20,10 +20,6 @@ module.exports = {
         link:'/about'
       },
       {
-        name:'Contact',
-        link:'/contact'
-      },
-      {
         name:'Development',
         link:'/category/development'
       },
@@ -53,6 +49,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/pages`,
         name: `pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/config.md`,
+        name: `config`,
       },
     },
     {
@@ -118,7 +121,18 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: ``,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Merriweather`,
+            variants: [`100`, `400`, `700`]
+          },
+        ],
       },
     },
     `gatsby-plugin-offline`,

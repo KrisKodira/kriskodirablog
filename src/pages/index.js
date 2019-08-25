@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import NewsPreview from "../components/news-preview";
+import Image from '../components/image';
 import("../sass/layout.sass")
 
 class BlogIndex extends React.Component {
@@ -14,9 +15,9 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
 
     return (
+      
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <Bio />
         {posts.map(({ node }) => {
           node.featurePage = false;
           return <NewsPreview article={node} />
@@ -53,5 +54,14 @@ export const pageQuery = graphql`
         }
       }
     }
+    config: file(absolutePath: {regex: "/content/config.md/"}) {
+      childMarkdownRemark {
+        frontmatter {
+          header
+        }
+      }
+    }
+    
+    
   }
 `

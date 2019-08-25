@@ -11,16 +11,12 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
 
   return (
     <Layout location={location} title={`Posts in category "${category}"`}>
-      <div className="category-container">
-        <SEO title={`Posts in category "${category}"`} />
+      <SEO title={`Posts in category "${category}"`} />
 
-        <h1>Category: {category}</h1>
-        {allCatPosts.map(({ node }) => {
-          node.featurePage = true;
-          return <NewsPreview article={node} />
-        })}
-        
-      </div>
+      {allCatPosts.map(({ node }) => {
+        node.featurePage = true;
+        return <NewsPreview article={node} />
+      })}
     </Layout>
   )
 }

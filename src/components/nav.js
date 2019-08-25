@@ -20,16 +20,20 @@ function Nav() {
       render={data => (
         <React.Fragment>
           <nav>
+            <Link to="/">
+              <div className="logo">
+                KrisKodira
+              </div>
+            </Link>
             <ul style={{ display: "flex", flex: 1 }}>
               {data.site.siteMetadata.menuLinks.map(link => (
                 <li
                   key={link.name}
                   style={{
                     listStyleType: `none`,
-                    padding: `1rem`,
                   }}
                 >
-                  <Link to={link.link}>
+                  <Link to={link.link} activeClassName="active">
                     {link.name}
                   </Link>
                 </li>

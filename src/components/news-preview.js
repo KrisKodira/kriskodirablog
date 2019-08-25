@@ -7,25 +7,25 @@ const NewsPreview = ({ article }) => {
   const title = article.frontmatter.title || article.fields.slug
 
   return (!!article.frontmatter.featured_post || !!article.featurePage) &&
-    (<div key={article.fields.slug}>
-      <h3
-        style={{
-          marginBottom: rhythm(1 / 4),
-        }}
-      >
+    (<article key={article.fields.slug} >
+      <div className="articleImage">
+        <Image alt="Post Image" filename={article.frontmatter.picture} />
+      </div>
+
+      <div>
         <Link style={{ boxShadow: `none` }} to={article.fields.slug}>
-          {title}
-        </Link>
-      </h3>
-      <small>{article.frontmatter.date}</small>
-      <p
-        dangerouslySetInnerHTML={{
-          __html: article.frontmatter.description || article.excerpt,
-        }}
-      />
-      <p>Kategorie: {article.frontmatter.category}</p>
-      <p>Bild: {article.frontmatter.picture} <Image alt="Gatsby in Space" filename={article.frontmatter.picture} /></p>
-    </div>)
+          <small className="articleDate">{article.frontmatter.date}</small>
+          <strong className="category">{article.frontmatter.category}</strong>
+          <h3>{title}</h3>
+          
+          <p
+            dangerouslySetInnerHTML={{
+              __html: article.frontmatter.description || article.excerpt,
+            }}
+          />   
+        </Link>     
+      </div>
+    </article>)
 }
 
 export default NewsPreview
