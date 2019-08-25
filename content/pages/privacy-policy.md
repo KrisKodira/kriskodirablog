@@ -153,6 +153,6 @@ Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern 
 
 Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.
 
-Weitere Informationen zu Google Web Fonts finden Sie unter \[[https://developers.google.com/fonts/faq](https://developers.google.com/fonts/faq "https://developers.google.com/fonts/faq")\]([https://developers.google.com/fonts/faq](https://developers.google.com/fonts/faq "https://developers.google.com/fonts/faq")) und in der Datenschutzerklärung von Google: \[[https://policies.google.com/privacy?hl=de](https://policies.google.com/privacy?hl=de "https://policies.google.com/privacy?hl=de")\]([https://policies.google.com/privacy?hl=de](https://policies.google.com/privacy?hl=de "https://policies.google.com/privacy?hl=de")).
+Weitere Informationen zu Google Web Fonts finden Sie unter \[https://developers.google.com/fonts/faq\](https://developers.google.com/fonts/faq) und in der Datenschutzerklärung von Google: \[https://policies.google.com/privacy?hl=de\](https://policies.google.com/privacy?hl=de).
 
-Quelle: \[eRecht24\]([https://www.e-recht24.de](https://www.e-recht24.de "https://www.e-recht24.de"))
+Quelle: \[eRecht24\](https://www.e-recht24.de)
