@@ -10,3 +10,5 @@ published: true
 
 ---
 Rofl bruder
+
+![](../assets/close-code.jpg)
