@@ -7,25 +7,15 @@ title: Imprint
 
 ### Angaben gemäß § 5 TMG
 
-Kristijan Jurcic\\
-
-Waldschulstr. 22\\
-
-65933 Frankfurt am Main
+Kristijan Jurcic, Waldschulstr. 22, 65933 Frankfurt am Main
 
 ### Kontakt
 
-Telefon: 015732415885
+Telefon: 015732415885, E-Mail: kriskodira@gmail.com
 
-E-Mail: kriskodira@gmail.com
+### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
-Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
-
-Kristijan Jurcic
-
-Waldschulstr. 22
-
-65933, Frankfurt am Main
+Kristijan Jurcic, Waldschulstr. 22, 65933 Frankfurt am Main
 
 ### Haftung für Inhalte
 
