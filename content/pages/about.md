@@ -7,7 +7,7 @@ title: About
 
 ![](/./profile-pic-2.jpg)
 
-Thats me!
+Thats me!a
 
 Lorem ipsum dolor amet dreamcatcher mumblecore marfa heirloom occupy. Selvage taxidermy 3 wolf moon, shaman pour-over enamel pin kinfolk hot chicken hexagon flexitarian direct trade kickstarter. Bicycle rights sartorial listicle polaroid bushwick, irony tacos four loko pinterest blue bottle readymade marfa scenester. Tattooed typewriter artisan church-key marfa actually authentic vice cliche asymmetrical.
 
