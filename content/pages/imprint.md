@@ -7,9 +7,9 @@ title: Imprint
 
 ### Angaben gemäß § 5 TMG
 
-Kristijan Jurcic
+Kristijan Jurcic\\
 
-Waldschulstr. 22
+Waldschulstr. 22\\
 
 65933 Frankfurt am Main
 
