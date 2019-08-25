@@ -36,7 +36,7 @@ upload_dir: content/assets
 public_path: ''
 front_matter_path: content/assets
 use_front_matter_path: true
-file_template: "./:filename:"
+file_template: ":filename:"
 build:
   preview_output_directory: public
   install_dependencies_command: yarn install
