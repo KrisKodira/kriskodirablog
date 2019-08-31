@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Kriskodira Blog`,
-    author: `Kristijan Jurcic`,
+    author: `KrisKodira`,
     description: `Fresh blog made by Kris about development and other cool stuff =]`,
     siteUrl: `https://kriskodirablog.github.io`,
     social: {
@@ -79,7 +79,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-normalize-paths",
             options: {
-                pathFields: ["."],
+                pathFields: ["images"],
             },
           },
           `gatsby-remark-smartypants`,

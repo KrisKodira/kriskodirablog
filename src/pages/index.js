@@ -22,6 +22,7 @@ class BlogIndex extends React.Component {
           node.featurePage = false;
           return <NewsPreview article={node} />
         })}
+         
       </Layout>
     )
   }

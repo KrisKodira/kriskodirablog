@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Image from "../components/image"
@@ -25,7 +24,7 @@ const BlogPostTemplate = ({data, pageContext, location}) => {
         </div>
         <h1
           style={{
-            marginTop: rhythm(1),
+            marginTop: rhythm(4),
             marginBottom: 0,
           }}
         >
@@ -46,7 +45,6 @@ const BlogPostTemplate = ({data, pageContext, location}) => {
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
       </div>
     </Layout>
   )

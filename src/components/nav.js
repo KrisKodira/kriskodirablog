@@ -2,6 +2,17 @@ import React from "react"
 import { StaticQuery, graphql, Link } from "gatsby"
 
 function Nav() {
+  
+  let state = { showMenu: false }
+
+  let toggleMenu = (event) => {
+    function setState() {
+      state.showMenu = !state.showMenu
+    }
+  }
+
+  const menuVis = state.showMenu ? 'show' : 'hide';
+
   return (
     <StaticQuery
       query={graphql`
@@ -18,6 +29,7 @@ function Nav() {
         }
       `}
       render={data => (
+        
         <React.Fragment>
           <nav>
             <Link to="/">
@@ -26,6 +38,7 @@ function Nav() {
               </div>
             </Link>
             <ul style={{ display: "flex", flex: 1 }}>
+              <li className={`mobileNav ${menuVis}`} onClick={toggleMenu()}>Menu</li>
               {data.site.siteMetadata.menuLinks.map(link => (
                 <li
                   key={link.name}

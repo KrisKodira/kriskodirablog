@@ -33,8 +33,10 @@ const Bio = () => {
   return (
     <div
       style={{
-        display: `flex`,
+        display: "flex",
         marginBottom: rhythm(2.5),
+        width: 300,
+        alignItems: "center"
       }}
     >
       <Image
@@ -43,17 +45,20 @@ const Bio = () => {
         style={{
           marginRight: rhythm(1 / 2),
           marginBottom: 0,
-          minWidth: 50,
+          minWidth: 100,
+          height: 100,
           borderRadius: `100%`,
         }}
         imgStyle={{
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
-        {` `}
+      <p
+        style={{
+          marginBottom: 0
+        }}
+      >
+        Written by <strong>{author}</strong> who lives and works in Frankfurt am Main.
       </p>
     </div>
   )

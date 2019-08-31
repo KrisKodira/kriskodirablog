@@ -3,6 +3,9 @@ body
   color: black;
   font-family: 'Merriweather', serif;
 
+.mobileNav
+  display: none
+
 h1
   font-family: 'Merriweather', serif !important;
 
@@ -41,6 +44,8 @@ main
   width: 100%
   display: flex
   flex-wrap: wrap
+  box-shadow: 0 1px 0 0 currentColor;
+  margin-bottom: 4rem
 
 article
   display: flex
@@ -114,3 +119,78 @@ img
     top: 50% !important
     left: 50% !important
     transform: translate(-50%, -50%);
+
+.blog-post-content
+  h1, h2, h3, h4, h5, h6
+    &:first-child
+      margin-top: 0 !important
+
+.submitBtn
+  color: white
+  background-color: black
+  text-transform: uppercase
+  border: 0
+  padding: 10px 20px
+  width: 100%
+  &:hover
+    background-color: lighten(#666, 20%)
+    cursor: pointer
+
+form
+  background-color: #666
+  padding: 1rem
+  margin-bottom: 0
+  p
+    color: #fff !important
+    font-weight: 700
+  input[type="text"]
+    background-color: #666
+    border: none
+    outline: none
+    box-shadow: none
+    color: white
+    border: 1px solid white
+    padding: 10px
+    
+
+footer
+  display: flex
+  justify-content: space-between
+  align-items: flex-end
+
+@media screen and (max-width: 940px)
+  article, article:first-child
+    flex: 1 1 100%
+    max-width: 100%
+    flex-direction: column
+    .articleImage
+      padding-right: 0rem
+      flex: 1 1 100% 
+      .gatsby-image-wrapper
+        height: 400px
+        max-height: 400px
+    h3
+      font-weight: 400
+      margin-top: 1rem
+      font-size: 2rem
+      margin-bottom: 0.4rem
+
+  footer
+    flex-direction: column-reverse
+    align-items: flex-start
+    width: 100%
+    form
+      margin-bottom: 4rem
+      width: 100%
+      input
+        width: 100%
+  
+  nav
+    flex-direction: column
+    ul
+      flex-direction: column
+      align-items: flex-start
+      li
+        display: none
+      li.mobileNav
+        display: block
