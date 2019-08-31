@@ -9,10 +9,17 @@ const MDPageTemplate = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
 
+  let lang = "en";
+
+  if(frontmatter.title == "Privacy" || frontmatter.title == "Imprint"){
+    lang = "de";
+  }
+
   return (
     <Layout>
       <SEO
         title={frontmatter.title}
+        lang={lang}
       />
       <div
         className="blog-post-content"
