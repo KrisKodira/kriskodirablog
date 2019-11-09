@@ -7,14 +7,18 @@ title: About
 
 ![](../assets/profile-pic-2.jpg)
 
-Thats me!a
+Thats me!
 
-Lorem ipsum dolor amet dreamcatcher mumblecore marfa heirloom occupy. Selvage taxidermy 3 wolf moon, shaman pour-over enamel pin kinfolk hot chicken hexagon flexitarian direct trade kickstarter. Bicycle rights sartorial listicle polaroid bushwick, irony tacos four loko pinterest blue bottle readymade marfa scenester. Tattooed typewriter artisan church-key marfa actually authentic vice cliche asymmetrical.
+I'm a 23 year old web developer who was born in Croatia and lives in Frankfurt, Germany. Currently I work for a marketing agency called "Vier für Texas" in Frankfurt am Main in the furious "Bahnhofsviertel". It's bad but then again it's not THAT bad. You can survive as long as you don't stare anyone in the eyes 👀.
 
-Woke craft beer bespoke mixtape, truffaut vegan messenger bag. Actually hoodie hot chicken vice. Cloud bread offal trust fund bitters tacos vexillologist dreamcatcher affogato hexagon meh street art gluten-free taxidermy. Raw denim pitchfork seitan bespoke.
+In my free time I enjoy making myself some Coffee with my Bialetti, writing a few blog posts here and there, riding my motorcycle if it's not too cold, going to the gym for a workout and the spa, spending time with friends and family and obviously coding away 👨‍💻
 
-Letterpress wolf affogato hashtag distillery butcher. Retro portland plaid typewriter before they sold out. Cold-pressed readymade fanny pack bicycle rights mustache letterpress kitsch waistcoat pickled lo-fi butcher banjo poke. Keffiyeh fam four loko marfa iceland tbh small batch. Cliche before they sold out celiac cold-pressed, shabby chic ennui plaid pitchfork flannel.
+My interests on the more technical side are Web Development (Front & Back), native SWIFT development, Kotlin Android development and building my own PCs.
 
-Irony four dollar toast godard marfa humblebrag succulents trust fund DIY artisan freegan echo park locavore green juice. Normcore tbh forage roof party. Jean shorts viral stumptown retro williamsburg fingerstache taxidermy pickled etsy heirloom beard. Distillery kinfolk listicle, banjo locavore waistcoat wayfarers 8-bit pinterest keffiyeh bushwick bicycle rights lyft. Tumblr hoodie woke lomo, try-hard cronut etsy poke green juice offal. Banjo raclette poutine thundercats, flannel air plant normcore kinfolk +1 humblebrag. Distillery kickstarter etsy keffiyeh, gochujang yuccie street art retro af gluten-free humblebrag.
+If you want to you can also find me here:
+
+* [Instagram](https://www.instagram.com/kris.kodira/)
+* [Github](https://github.com/KrisKodira)
+* [Xing]()
 
 **Enjoy!**
