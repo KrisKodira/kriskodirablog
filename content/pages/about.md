@@ -13,4 +13,6 @@ I'm a 23 year old web developer who was born in Croatia and lives in Frankfurt, 
 
 In my free time I enjoy making myself some Coffee with my Bialetti, writing a few blog posts here and there, riding my motorcycle if it's not too cold, going to the gym for a workout and the spa, spending time with friends and family and obviously coding away 👨‍💻
 
+My interests on the more technical side are Web Development, native SWIFT development, Kotlin Android development, building my 
+
 **Enjoy!**
