@@ -62,6 +62,3 @@ fields:
 - name: published
   type: boolean
   label: Published
-pages:
-- content/blog/lolaki.md
-- content/blog/lol2.md
