@@ -29,7 +29,7 @@ Create a new Tag by clicking on "Add a new tag" on the upper left side and then 
 
 At the top left corner give your tag a meaningful name like "GA Tracker". Skip the trigger selection for now and click on save and click "Add trigger" if GTM tells you that you didn't create a trigger now.
 
-Next up go to Triggers and click on "New" to create a trigger. Click on the trigger configuration to select a trigger type and here you will select "Custom Event". 
+Next up go to Triggers and click on "New" to create a trigger. Click on the trigger configuration to select a trigger type and here you will select "Custom Event".
 
 ![](/Screenshot 2019-11-15 at 21.53.49.png)
 
@@ -39,7 +39,7 @@ Once you got that open enter a meaningful name to your event name like "cookieCo
 
 Go back to "Tags" and click on your tag you just created. After that click on "Triggering" and choose the Trigger you just created. Click on "Save" and lets move to the code.
 
-## The Cookie Consent Code 
+## The Cookie Consent Code
 
 #### HTML & SASS (CSS)
 
@@ -99,11 +99,10 @@ Once you think you like your cookie style add the _display: none_ styling to you
 
 #### Javascript
 
-Now create a .js file for your cookie consent that is saved in your js folder. It could be named something like _cookie-consent.js_. 
+Now create a .js file for your cookie consent that is saved in your js folder. It could be named something like _cookie-consent.js_.
 
-First we need to check if the user has already decided that he wants/doesn't want us to load the cookies. You can do this by adding the following _if_ condition: 
+First we need to check if the user has already decided that he wants/doesn't want us to load the cookies. You can do this by adding the following _if_ condition:
 
-    
-    if(document.cookie.indexOf("cookieDesicionHasBeenMade=") >= 0){
+    if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === 0){
      	// code       
     }
