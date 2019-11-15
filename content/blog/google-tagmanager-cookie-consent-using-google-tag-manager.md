@@ -28,3 +28,9 @@ Head to [Google Tag Manager](https://tagmanager.google.com) and log in with the 
 Create a new Tag by clicking on "Add a new tag" on the upper left side and then click on the tag manager to select a tag type. In the tag type you choose "Custom HTML". Here you can paste your tracker Script from Google Analytics, Matomo and so on.
 
 At the top left corner give your tag a meaningful name like "GA Tracker". Skip the trigger selection for now and click on save and click "Add trigger" if GTM tells you that you didn't create a trigger now.
+
+Next up go to Triggers and click on "New" to create a trigger. Click on the trigger configuration to select a trigger type and here you will select "Custom Event". 
+
+![](/Screenshot 2019-11-15 at 21.53.49.png)
+
+Once you got that open enter a meaningful name to your event name like "cookieConsented". You will push that event later on in your JS once the client says "Yes, I want to be tracked". Also click the "Some Custom Events"
