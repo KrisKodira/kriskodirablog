@@ -63,8 +63,8 @@ fields:
   type: boolean
   label: Published
 pages:
-- content/blog/craft-cms-3-simple-language-redirect.md
 - content/blog/gitlab-ci-cd-basics.md
+- content/blog/craft-cms-3-simple-language-redirect.md
 - content/blog/what-to-plan-before-starting-to-code-a-website.md
 - content/blog/google-tagmanager-cookie-consent-using-google-tag-manager.md
 - content/blog/tips-on-landing-your-first-development-job.md
