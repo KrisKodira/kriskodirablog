@@ -1,7 +1,7 @@
 ---
 date: 2019-11-15
 title: 'Craft CMS 3: Simple language redirect'
-category: Development
+category: Code
 description: Redirect users based on their preferred language or let them choose a
   language.
 picture: ''
