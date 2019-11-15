@@ -109,26 +109,30 @@ First we need to check if the user has already decided that he wants/doesn't wan
 
 The complete code for the cookie consent will look something like this:
 
-    document.addEventListener("DOMContentLoaded", () => {
-      if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === 0){
-        const cookieDim = document.querySelector(".cookie-dim");
-        const today = new Date();
-        const cookieVars = "cookieDesicionHasBeenMade=true; expires="+today.setDate(today.getDate() + 14).toString()+"; path=/";
-        cookieDim.style.display = "block";
+    if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === 0){
+      const cookieDim = document.querySelector(".cookie-dim");
+      const today = new Date();
+      const cookieVars = "cookieDesicionHasBeenMade=true; expires="+today.setDate(today.getDate() + 14).toString()+"; path=/";
+      cookieDim.style.display = "block";
     
-        document.getElementById("agreeToCookie").addEventListener("click", function () {  
-          cookieDim.style.display = "none";
-    	  
-          window.dataLayer = window.dataLayer || [];
-          window.dataLayer.push({'cookieConsented': true});
-          document.cookie = cookieVars;
-        })
+      document.getElementById("agreeToCookie").addEventListener("click", function () {  
+        cookieDim.style.display = "none";
     
-        document.getElementById("disagreeToCookie").addEventListener("click", function () {  
-          cookieDim.style.display = "none";
-          document.cookie = cookieVars;
-        })
-      }
-    });
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({'cookieConsented': true});
+        document.cookie = cookieVars;
+      })
+    
+      document.getElementById("disagreeToCookie").addEventListener("click", function () {  
+        cookieDim.style.display = "none";
+        document.cookie = cookieVars;
+      })
+    }
 
-a
+## Testing your configuration
+
+Go back to GTM and click on Submit in the upper right corner. This is pretty much like Version control. Add a meaningful name to your version like "Add cookie consent" and click on "Publish". Once published click on "Preview". Go to your webpage and you will see thet GTM console popping up all of a sudden. 
+
+![](/Screenshot 2019-11-15 at 23.06.37.png)
+
+As you can see below the "Tags not fired" headline, none of the tags we created are being fired. Which is exactly what you want. 
