@@ -101,7 +101,7 @@ Once you think you like your cookie style add the _display: none_ styling to you
 
 Now create a .js file for your cookie consent that is saved in your js folder. It could be named something like _cookie-consent.js_.
 
-First we need to check if the user has already decided that he wants/doesn't want us to load the cookies. You can do this by adding the following _if_ condition:
+First we need to check if the user has already decided that he wants/doesn't want us to load the cookies. You can do this by adding the following _if_ condition (Make sure to use this code after the Page has been loaded and the document is ready):
 
     if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === 0){
      	// code       
