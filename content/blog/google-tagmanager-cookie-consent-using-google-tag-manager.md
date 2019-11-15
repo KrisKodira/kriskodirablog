@@ -107,7 +107,7 @@ First we need to check if the user has already decided that he wants/doesn't wan
      	// code       
     }
 
-The complete code for the cookie consent will look something like this: 
+The complete code for the cookie consent will look something like this:
 
     document.addEventListener("DOMContentLoaded", () => {
       if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === 0){
@@ -129,3 +129,5 @@ The complete code for the cookie consent will look something like this:
         })
       }
     });
+   
+a
