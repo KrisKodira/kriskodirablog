@@ -106,5 +106,26 @@ First we need to check if the user has already decided that he wants/doesn't wan
     if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === 0){
      	// code       
     }
-   
-A
+
+The complete code for the cookie consent will look something like this:
+
+    document.addEventListener("DOMContentLoaded", () => {
+      if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === 0){
+        const cookieDim = document.querySelector(".cookie-dim");
+        const cookieVars = "cookieDesicionHasBeenMade=true; expires="+date.setDate(date.getDate() + 14).toString()+"; path=/";
+    
+        cookieDim.style.display = "block";
+    
+        document.getElementById("agreeToCookie").addEventListener("click", function () {  
+          cookieDim.style.display = "none";
+    
+          dataLayer.push({'cookieConsented': true});
+          document.cookie = cookieVars;
+        })
+    
+        document.getElementById("disagreeToCookie").addEventListener("click", function () {  
+          cookieDim.style.display = "none";
+          document.cookie = cookieVars;
+        })
+      }
+    });
