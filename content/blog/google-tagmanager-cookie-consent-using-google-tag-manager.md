@@ -135,4 +135,4 @@ Go back to GTM and click on Submit in the upper right corner. This is pretty muc
 
 ![](/Screenshot 2019-11-15 at 23.06.37.png)
 
-As you can see below the "Tags not fired" headline, none of the tags we created are being fired. Which is exactly what you want.
+As you can see below the "Tags not fired" headline, none of the tags we created are being fired. Which is exactly what you want. Now once you click "Yes" you will see the Tracker you added jump to "Tags fired on this page". Right now your tracker is loaded inside the website and working.
