@@ -20,7 +20,7 @@ const BlogPostTemplate = ({data, pageContext, location}) => {
       />
       <div className="blogPost">
         <div className="articleImage">
-          <Image alt="Gatsby in Space" filename={post.frontmatter.picture} />
+          <Image filename={post.frontmatter.picture} />
         </div>
         <h1
           style={{

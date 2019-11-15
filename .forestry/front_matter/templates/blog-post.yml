@@ -14,8 +14,8 @@ fields:
   config:
     required: true
     options:
-    - Development
-    - Random Phone Pictures
+    - Code
+    - Art of coding
     source:
       type: simple
       section: 

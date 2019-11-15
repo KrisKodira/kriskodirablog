@@ -24,15 +24,17 @@ const Image = props => (
       }
     `}
     render={data => {
+      console.log(data)
       const image = data.images.edges.find(n => {
         let fn = props.filename.replace(/\//gi, "");
+        console.log(fn)
         return n.node.relativePath.includes(fn);
       });
       if (!image) {
+        console.log("Nor image")
         return null;
       }
 
-      //const imageSizes = image.node.childImageSharp.sizes; sizes={imageSizes}
       return <Img alt={props.alt} fluid={image.node.childImageSharp.fluid} />;
     }}
   />

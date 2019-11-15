@@ -20,12 +20,12 @@ module.exports = {
         link:'/about'
       },
       {
-        name:'Development',
-        link:'/category/development'
+        name:'Code',
+        link:'/category/code'
       },
       {
-        name:'Random Phone Pictures',
-        link:'/category/random-phone-pictures'
+        name:'Art of Coding',
+        link:'/category/art-of-coding'
       }
     ]
   },

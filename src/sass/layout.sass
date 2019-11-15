@@ -6,6 +6,11 @@ body
 .mobileNav
   display: none
 
+ul
+  padding-left: 2em;
+  li
+    margin-bottom: .5rem
+
 h1
   font-family: 'Merriweather', serif !important;
 
@@ -157,6 +162,22 @@ footer
   display: flex
   justify-content: space-between
   align-items: flex-end
+
+.pagination
+  display: flex
+  a
+    padding: 0 1rem
+    &:first-child
+      padding-left: 0
+    &:last-child
+      display: inline-block !important
+  .currPage
+    font-weight: 700
+    & + a + a + a, & + a + a + a ~ a
+      display: none
+  
+      
+    
 
 @media screen and (max-width: 940px)
   article, article:first-child
