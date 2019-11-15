@@ -103,31 +103,41 @@ Now create a .js file for your cookie consent that is saved in your js folder. I
 
 First we need to check if the user has already decided that he wants/doesn't want us to load the cookies. You can do this by adding the following _if_ condition (Make sure to use this code after the Page has been loaded and the document is ready):
 
-    if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === 0){
-     	// code       
-    }
+        if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === 0){
+     	    // code       
+        }
 
 The complete code for the cookie consent will look something like this:
 
-    if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === 0){
-      const cookieDim = document.querySelector(".cookie-dim");
-      const today = new Date();
-      const cookieVars = "cookieDesicionHasBeenMade=true; expires="+today.setDate(today.getDate() + 14).toString()+"; path=/";
-      cookieDim.style.display = "block";
+        var loadCookies = function(){
+          TagManager.dataLayer(tagManagerArgs);
+        }
     
-      document.getElementById("agreeToCookie").addEventListener("click", function () {  
-        cookieDim.style.display = "none";
+        if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === -1){
+          const cookieDim = document.querySelector(".cookie-dim");
+          const today = new Date();
+          const twoWeeks = today.setDate(today.getDate() + 14).toString();
+          const cookieVars = "cookieDesicionHasBeenMade=true; expires="+twoWeeks+"; path=/";
+          
+          cookieDim.style.display = "block";
     
-        window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({'cookieConsented': true});
-        document.cookie = cookieVars;
-      })
+          document.getElementById("agreeToCookie").addEventListener("click", function () {  
+            cookieDim.style.display = "none";
     
-      document.getElementById("disagreeToCookie").addEventListener("click", function () {  
-        cookieDim.style.display = "none";
-        document.cookie = cookieVars;
-      })
-    }
+            loadCookies();
+            document.cookie = cookieVars;
+            document.cookie = "allowTrackingCookies=true; expires="+twoWeeks+"; path=/";;
+          })
+    
+          document.getElementById("disagreeToCookie").addEventListener("click", function () {  
+            cookieDim.style.display = "none";
+            document.cookie = cookieVars;
+          })
+        }
+    
+        if(document.cookie.indexOf("allowTrackingCookies=") !== -1){
+          loadCookies();
+        }
 
 ## Testing your configuration
 
@@ -135,4 +145,4 @@ Go back to GTM and click on Submit in the upper right corner. This is pretty muc
 
 ![](/Screenshot 2019-11-15 at 23.06.37.png)
 
-As you can see below the "Tags not fired" headline, none of the tags we created are being fired. Which is exactly what you want. Now once you click "Yes" you will see the Tracker you added jump to "Tags fired on this page". Right now your tracker is loaded inside the website and working.
+As you can see below the "Tags not fired" headline, none of the tags we created are being fired. Which is exactly what you want. Now once you click "Yes" you will see the Tracker you added jump to "Tags fired on this page". Right now your tracker is loaded inside the website and working. Now whenever you change the page your cookie should still be laoded all the time. If you want to test the deny option just open your website in a private browser, click "No" and see what happens. Your tracker stays in "Not Fired On This Page" forever. No matter what you do. **TADA!** There we have it.
