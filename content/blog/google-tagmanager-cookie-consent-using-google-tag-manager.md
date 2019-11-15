@@ -118,8 +118,9 @@ The complete code for the cookie consent will look something like this:
     
         document.getElementById("agreeToCookie").addEventListener("click", function () {  
           cookieDim.style.display = "none";
-    
-          dataLayer.push({'cookieConsented': true});
+    	  
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({'cookieConsented': true});
           document.cookie = cookieVars;
         })
     
@@ -129,5 +130,5 @@ The complete code for the cookie consent will look something like this:
         })
       }
     });
-   
+
 a
