@@ -8,6 +8,6 @@ featured_post: true
 gallery:
 - "../assets/close-code.jpg"
 - "../assets/amauri-acosta-montiel-mtuCpK4EzbY-unsplash.jpg"
-published: true
+published: false
 
 ---
