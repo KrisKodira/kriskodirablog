@@ -21,10 +21,6 @@ GTM --> Google Tag Manager
 
 Head to [Google Tag Manager](https://tagmanager.google.com) and log in with the Google Account you use for your work. Once you're logged in click on "Create Account" and fill in the data accordingly and choose "Web" at the target platform. Click on create and accept the GTM Policy. Also add the two snippets GTM provides you with to the according places.
 
-## Creating your variable
-
-Got to "Variables" on the left sidebar and click on "New" in the "User Defined Variables" box. Click the "Variable Configuration" and choose "1st-Party Cookie". Write something like "_cookieConsented_" in the "Cookie Name" field. Name your variable to something like "Cookie consent var" and save.
-
 ## Creating the Tag
 
 ![](/Screenshot 2019-11-15 at 21.45.38.png)
@@ -35,9 +31,9 @@ At the top left corner give your tag a meaningful name like "GA Tracker". Skip t
 
 Next up go to Triggers and click on "New" to create a trigger. Click on the trigger configuration to select a trigger type and here you will select "Custom Event".
 
-![](/Screenshot 2019-11-15 at 23.26.37.png)
+![](/Screenshot 2019-11-15 at 21.53.49.png)
 
-Once you got that open enter a meaningful name to your event name like "cookieConsented". You will push that event later on in your JS once the client says "Yes, I want to be tracked". Also click the "Some Custom Events" radio and exclude your development environment from being tracked by checking if the hostname **does not** contain your dev environment names like staging, localhost and so on. Otherwise you would track clicks and so on in your dev environment which the client doesn't want. Also make sure the 1st-Party Cookie we created above equals to true. Give your trigger a meaningful name like "Cookie has been consented". After this save and continue with the tutorial.
+Once you got that open enter a meaningful name to your event name like "cookieConsented". You will push that event later on in your JS once the client says "Yes, I want to be tracked". Also click the "Some Custom Events" radio and exclude your development environment from being tracked by checking if the hostname **does not** contain your dev environment names like staging, localhost and so on. Otherwise you would track clicks and so on in your dev environment which the client doesn't want. Give your trigger a meaningful name like "Cookie has been consented". After this save and continue with the tutorial.
 
 ## Adding the trigger to the tag
 
