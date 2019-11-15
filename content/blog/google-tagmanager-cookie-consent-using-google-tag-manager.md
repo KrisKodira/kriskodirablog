@@ -112,8 +112,8 @@ The complete code for the cookie consent will look something like this:
     document.addEventListener("DOMContentLoaded", () => {
       if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === 0){
         const cookieDim = document.querySelector(".cookie-dim");
-        const cookieVars = "cookieDesicionHasBeenMade=true; expires="+date.setDate(date.getDate() + 14).toString()+"; path=/";
-    
+        const today = new Date();
+        const cookieVars = "cookieDesicionHasBeenMade=true; expires="+today.setDate(today.getDate() + 14).toString()+"; path=/";
         cookieDim.style.display = "block";
     
         document.getElementById("agreeToCookie").addEventListener("click", function () {  
