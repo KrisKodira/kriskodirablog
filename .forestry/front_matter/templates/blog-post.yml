@@ -64,3 +64,5 @@ fields:
   label: Published
 pages:
 - content/blog/gitlab-ci-cd-basics.md
+- content/blog/tips-on-landing-your-first-development-job.md
+- content/blog/my-opinion-on-where-to-start-if-you-want-to-become-a-developer.md
