@@ -6,5 +6,4 @@ description: How to set up a GitLab CI / CD for various projects.
 picture: "amauri-acosta-montiel-mtuCpK4EzbY-unsplash.jpg"
 featured_post: true
 published: true
-
 ---
