@@ -145,4 +145,6 @@ Go back to GTM and click on Submit in the upper right corner. This is pretty muc
 
 ![](/Screenshot 2019-11-15 at 23.06.37.png)
 
-As you can see below the "Tags not fired" headline, none of the tags we created are being fired. Which is exactly what you want. Now once you click "Yes" you will see the Tracker you added jump to "Tags fired on this page". Right now your tracker is loaded inside the website and working. Now whenever you change the page your cookie should still be laoded all the time. If you want to test the deny option just open your website in a private browser, click "No" and see what happens. Your tracker stays in "Not Fired On This Page" forever. No matter what you do. **TADA!** There we have it.
+As you can see below the "Tags not fired" headline, none of the tags we created are being fired. Which is exactly what you want. Now once you click "Yes" you will see the Tracker you added jump to "Tags fired on this page". Right now your tracker is loaded inside the website and working. Now whenever you change the page your cookie should still be laoded all the time. If you want to test the deny option just open your website in a private browser, click "No" and see what happens. Your tracker stays in "Not Fired On This Page" forever. No matter what you do. **TADA!** There we have it. Now we only need to give the user the ability to revoke his choice in the privacy policy. But this one is easy peasy.
+
+## Making the consented cookie revokeable
