@@ -39,7 +39,7 @@ Once you got that open enter a meaningful name to your event name like "cookieCo
 
 Go back to "Tags" and click on your tag you just created. After that click on "Triggering" and choose the Trigger you just created. Click on "Save" and lets move to the code.
 
-## The Cookie Consent HTML & CSS
+## The Cookie Consent HTML & SASS (CSS)
 
 Add the HTML to your page. It could look something like this:
 
@@ -54,3 +54,37 @@ Add the HTML to your page. It could look something like this:
         </div>
       </div>
     </div>
+
+Some basic SASS styling you could use would look like this:
+
+    .cookie-dim
+      width: 100vw
+      height: 100vh
+      background-color: #00000065
+      position: fixed
+      top: 0
+      left: 0
+      
+      .cookie-consent
+        width: 40vw
+        background-color: #fff
+        padding: 4rem
+        margin: 0 auto
+        position: absolute
+        left: 0
+        right: 0
+        top: 50%
+        transform: translateY(-50%)
+      
+      .button
+        padding: 1rem
+        background-color: #000
+        color: #fff
+        display: inline-block
+        text-align: center
+        min-width: 6rem
+        cursor: pointer
+        &:first-of-type
+          margin-right: 1rem
+        &:hover
+          background-color: #272727
