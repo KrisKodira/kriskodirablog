@@ -95,4 +95,15 @@ Your cookie consent will now look like this:
 
 ![](/Screenshot 2019-11-15 at 22.21.05.png)
 
+Once you think you like your cookie style add the _display: none_ styling to your _.cookie-dim_ class.
+
 #### Javascript
+
+Now create a .js file for your cookie consent that is saved in your js folder. It could be named something like _cookie-consent.js_. 
+
+First we need to check if the user has already decided that he wants/doesn't want us to load the cookies. You can do this by adding the following _if_ condition: 
+
+    
+    if(document.cookie.indexOf("cookieDesicionHasBeenMade=") >= 0){
+     	// code       
+    }
