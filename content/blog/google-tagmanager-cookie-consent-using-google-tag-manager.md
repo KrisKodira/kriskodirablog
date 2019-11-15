@@ -106,3 +106,5 @@ First we need to check if the user has already decided that he wants/doesn't wan
     if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === 0){
      	// code       
     }
+   
+A
