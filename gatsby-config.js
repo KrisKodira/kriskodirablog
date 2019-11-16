@@ -14,19 +14,19 @@ module.exports = {
     menuLinks:[
       {
         name:'Start',
-        link:'/'
+        link:'/kriskodirablog'
       },
       {
         name:'About me',
-        link:'/about'
+        link:'/kriskodirablog/about'
       },
       {
         name:'Code',
-        link:'/category/code'
+        link:'/kriskodirablog/category/code'
       },
       {
         name:'Art of Coding',
-        link:'/category/art-of-coding'
+        link:'/kriskodirablog/category/art-of-coding'
       }
     ]
   },
@@ -118,7 +118,7 @@ module.exports = {
       options: {
         name: `Gatsby Starter Blog`,
         short_name: `GatsbyJS`,
-        start_url: `/`,
+        start_url: `/kriskodirablog`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
