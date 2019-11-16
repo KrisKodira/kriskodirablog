@@ -14,19 +14,19 @@ module.exports = {
     menuLinks:[
       {
         name:'Start',
-        link:'/kriskodirablog'
+        link:'/'
       },
       {
         name:'About me',
-        link:'/kriskodirablog/about'
+        link:'/about'
       },
       {
         name:'Code',
-        link:'/kriskodirablog/category/code'
+        link:'/category/code'
       },
       {
         name:'Art of Coding',
-        link:'/kriskodirablog/category/art-of-coding'
+        link:'/category/art-of-coding'
       }
     ]
   },

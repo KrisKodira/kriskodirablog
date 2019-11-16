@@ -26,23 +26,23 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-52982871fe7f585910dd.js"
+    "url": "webpack-runtime-f734a43ce4a5111a19db.js"
   },
   {
-    "url": "styles.41ebf1f9ee76b2492048.css"
+    "url": "styles.6dc4f396c286629e301d.css"
   },
   {
     "url": "styles-3ec467670a10cb96b48c.js"
   },
   {
-    "url": "app-a08097efabc8112671b2.js"
+    "url": "app-c8bb960800d206e62252.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-286943117e1fe38d4c5a.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a0c13c0367d47068bed68be2d5de1b3e"
+    "revision": "7472db9037c79b4eca41fbeb6a755714"
   },
   {
     "url": "google-fonts/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZM.woff2",
@@ -51,6 +51,10 @@ self.__precacheManifest = [
   {
     "url": "google-fonts/s/merriweather/v21/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2",
     "revision": "fa534be7ffa380e39a7f6e03bf9a5e03"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "ac2bc14889759db409869b8fb05fba5e"
   },
   {
     "url": "manifest.webmanifest",
@@ -73,12 +77,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/kriskodirablog`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-a08097efabc8112671b2.js`))) {
+  if (!resources || !(await caches.match(`/kriskodirablog/app-c8bb960800d206e62252.js`))) {
     return await fetch(event.request)
   }
 
@@ -91,7 +95,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/kriskodirablog/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
