@@ -110,7 +110,8 @@ First we need to check if the user has already decided that he wants/doesn't wan
 The complete code for the cookie consent will look something like this:
 
         var loadCookies = function(){
-          TagManager.dataLayer(tagManagerArgs);
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({'cookieConsented': true});
         }
     
         if(document.cookie.indexOf("cookieDesicionHasBeenMade=") === -1){
