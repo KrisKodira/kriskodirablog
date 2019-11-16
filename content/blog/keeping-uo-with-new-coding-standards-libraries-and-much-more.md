@@ -5,8 +5,8 @@ category: Art of coding
 description: Everything is changing in coding from day to day and it seems like it's
   impossible to keep up. How to manage keeping up with all these libraries?
 picture: "/emile-seguin-wf5ZJ2s-B7I-unsplash.jpg"
-featured_post: false
+featured_post: true
 gallery: []
-published: false
+published: true
 
 ---
