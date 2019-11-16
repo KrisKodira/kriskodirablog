@@ -1,5 +1,5 @@
 ---
-date: 2019-11-15
+date: 2019-11-16
 title: 'Google Tagmanager: Cookie Consent using Google Tag Manager'
 category: Code
 description: How to let your users choose if they want to be tracked.
