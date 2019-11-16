@@ -175,6 +175,39 @@ footer
     font-weight: 700
     & + a + a + a, & + a + a + a ~ a
       display: none
+
+.cookie-dim
+  width: 100vw
+  height: 100vh
+  background-color: #00000065
+  position: fixed
+  top: 0
+  left: 0
+  display: none
+  
+  .cookie-consent
+    width: 40vw
+    background-color: #fff
+    padding: 4rem
+    margin: 0 auto
+    position: absolute
+    left: 0
+    right: 0
+    top: 50%
+    transform: translateY(-50%)
+  
+  .button
+    padding: 1rem
+    background-color: #000
+    color: #fff
+    display: inline-block
+    text-align: center
+    min-width: 6rem
+    cursor: pointer
+    &:first-of-type
+      margin-right: 1rem
+    &:hover
+      background-color: #272727
   
       
     
