@@ -63,6 +63,7 @@ fields:
   type: boolean
   label: Published
 pages:
+- content/blog/keeping-uo-with-new-coding-standards-libraries-and-much-more.md
 - content/blog/google-tagmanager-cookie-consent-using-google-tag-manager.md
 - content/blog/gitlab-ci-cd-basics.md
 - content/blog/my-opinion-on-where-to-start-if-you-want-to-become-a-developer.md
