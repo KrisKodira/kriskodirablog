@@ -34,6 +34,7 @@ exports.createPages = ({ actions, graphql }) => {
               description
               category
               featured_post
+              published
             }
           }
         }

@@ -45,9 +45,7 @@ const Cookieconsent = () => {
     const revokeConsentLink = document.querySelector("a[href='#revokecookieconsent']");
 
     if(revokeConsentLink != null){
-      console.log("notr null")
       revokeConsentLink.addEventListener("click", function () { 
-        console.log("click")
         document.cookie = 'allowTrackingCookies=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/';
         document.cookie = 'cookieDesicionHasBeenMade=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/'; 
       })

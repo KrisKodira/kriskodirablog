@@ -22,29 +22,31 @@ const BlogPostTemplate = ({data, pageContext, location}) => {
         <div className="articleImage">
           <Image filename={post.frontmatter.picture} />
         </div>
-        <h1
-          style={{
-            marginTop: rhythm(4),
-            marginBottom: 0,
-          }}
-        >
-          {post.frontmatter.title}
-        </h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <div className="content-wrap">
+          <h1
+            style={{
+              marginTop: rhythm(4),
+              marginBottom: 0,
+            }}
+          >
+            {post.frontmatter.title}
+          </h1>
+          <p
+            style={{
+              ...scale(-1 / 5),
+              display: `block`,
+              marginBottom: rhythm(1),
+            }}
+          >
+            {post.frontmatter.date}
+          </p>
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <hr
+            style={{
+              marginBottom: rhythm(1),
+            }}
+          />
+        </div>
       </div>
     </Layout>
   )

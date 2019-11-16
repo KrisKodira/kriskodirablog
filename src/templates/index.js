@@ -17,7 +17,9 @@ class BlogIndex extends React.Component {
         <SEO title="All posts" />
         {posts.map(({ node }) => {
           node.featurePage = false;
-          return <NewsPreview article={node} />
+          if(node.frontmatter.published === true){
+            return <NewsPreview article={node} />
+          }
         })}
 
         {/* <Paginate pageNum={data.pageContext.pageCount} props={this.props} /> */}

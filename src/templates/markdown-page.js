@@ -21,10 +21,12 @@ const MDPageTemplate = ({ data }) => {
         title={frontmatter.title}
         lang={lang}
       />
-      <div
-        className="blog-post-content"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
+      <div className="content-wrap">
+        <div
+          className="blog-post-content"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+      </div>
     </Layout>
   )
 }

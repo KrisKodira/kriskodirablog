@@ -3,8 +3,6 @@ import { Link } from "gatsby"
 
 const Paginate = ({pageNum, props}) => {
 
-  console.log(props)
-
   // return (
   //   // <div className="pagination">
   //   //   {[...Array(pageNum)].map((e, i) => {

@@ -5,7 +5,6 @@ import { rhythm, scale } from "../utils/typography"
 import Nav from "./nav"
 import Bio from "./bio"
 import Newsletter from "./newslettersignup"
-import CookieConsent from "./cookieconsent"
 
 class Layout extends React.Component {
   render() {
@@ -33,7 +32,6 @@ class Layout extends React.Component {
 
           <Newsletter />
         </footer>
-        <CookieConsent/>
       </div>
     )
   }

@@ -15,7 +15,9 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
 
       {allCatPosts.map(({ node }) => {
         node.featurePage = true;
-        return <NewsPreview article={node} />
+        if(node.frontmatter.published === true){
+          return <NewsPreview article={node} />
+        }
       })}
     </Layout>
   )
@@ -42,6 +44,7 @@ export const pageQuery = graphql`
             description
             category
             featured_post
+            published
           }
         }
       }

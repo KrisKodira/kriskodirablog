@@ -176,6 +176,24 @@ footer
     & + a + a + a, & + a + a + a ~ a
       display: none
 
+code
+  display: block
+  width: 100%
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+
+.content-wrap
+  width: 60%
+  margin: 0 auto
+  @media screen and (max-width: 940px)
+    width: 80%
+  @media screen and (max-width: 720px)
+    width: 100%
+
 .cookie-dim
   width: 100vw
   height: 100vh
