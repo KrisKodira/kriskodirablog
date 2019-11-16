@@ -15,11 +15,13 @@ class NotFoundPage extends React.Component {
         <SEO title="404: Not Found" />
         <div className="blogPost">
           <div className="articleImage">
-            <Image filename="/assets/404.jpg" />
+            <Image filename="404.jpg" />
           </div>
           <div className="content-wrap">
-            Sadly we can't find the page you're looking for :(
-            <Link to="/">Go back to Home</Link>
+            <p>
+              Sadly we can't find the page you're looking for :(
+              <Link to="/">Go back to Home</Link>
+            </p>
           </div>
         </div>
       </Layout>
