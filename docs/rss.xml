@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kriskodira Blog]]></title><description><![CDATA[Fresh blog made by Kris about development and other cool stuff =]]]></description><link>https://kriskodirablog.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 16 Nov 2019 11:17:44 GMT</lastBuildDate><item><title><![CDATA[Imprint]]></title><description><![CDATA[Impressum Angaben gemäß § 5 TMG Kristijan Jurcic, Waldschulstr. 22, 65933 Frankfurt am Main Kontakt Telefon: 015732415885, E-Mail…]]></description><link>https://kriskodirablog.github.io/imprint/</link><guid isPermaLink="false">https://kriskodirablog.github.io/imprint/</guid><content:encoded>&lt;h2&gt;Impressum&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kriskodira Blog]]></title><description><![CDATA[Fresh blog made by Kris about development and other cool stuff =]]]></description><link>https://kriskodira.github.io/kriskodirablog</link><generator>RSS for Node</generator><lastBuildDate>Sat, 16 Nov 2019 13:00:04 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Welcome to my Blog! Hi! I’m a 23 year old web developer who was born in Croatia and lives in Frankfurt, Germany. Currently I work for a…]]></description><link>https://kriskodira.github.io/kriskodirablog/about/</link><guid isPermaLink="false">https://kriskodira.github.io/kriskodirablog/about/</guid><content:encoded>&lt;h1&gt;Welcome to my Blog!&lt;/h1&gt;
+&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;I’m a 23 year old web developer who was born in Croatia and lives in Frankfurt, Germany. Currently I work for a marketing agency called “Vier für Texas” in Frankfurt am Main in the furious “Bahnhofsviertel”. It’s bad but then again it’s not THAT bad. You can survive as long as you don’t stare anyone in the eyes 👀.&lt;/p&gt;
+&lt;p&gt;In my free time I enjoy making myself some Coffee with my Bialetti, writing a few blog posts here and there, riding my motorcycle if it’s not too cold, going to the gym for a workout and the spa, spending time with friends and family and obviously coding away 👨‍💻&lt;/p&gt;
+&lt;p&gt;My interests on the more technical side are Web Development (Front &amp;#x26; Back), native SWIFT development, Kotlin Android development and building my own PCs.&lt;/p&gt;
+&lt;p&gt;If you want to you can also find me here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.instagram.com/kris.kodira/&quot;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/KrisKodira&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Xing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Enjoy!&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Imprint]]></title><description><![CDATA[Impressum Angaben gemäß § 5 TMG Kristijan Jurcic, Waldschulstr. 22, 65933 Frankfurt am Main Kontakt Telefon: 015732415885, E-Mail…]]></description><link>https://kriskodira.github.io/kriskodirablog/imprint/</link><guid isPermaLink="false">https://kriskodira.github.io/kriskodirablog/imprint/</guid><content:encoded>&lt;h2&gt;Impressum&lt;/h2&gt;
 &lt;h3&gt;Angaben gemäß § 5 TMG&lt;/h3&gt;
 &lt;p&gt;Kristijan Jurcic, Waldschulstr. 22, 65933 Frankfurt am Main&lt;/p&gt;
 &lt;h3&gt;Kontakt&lt;/h3&gt;
@@ -13,18 +24,7 @@
 &lt;h3&gt;Urheberrecht&lt;/h3&gt;
 &lt;p&gt;Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.&lt;/p&gt;
 &lt;p&gt;Quelle:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.e-recht24.de&quot; title=&quot;https://www.e-recht24.de&quot;&gt;https://www.e-recht24.de&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About]]></title><description><![CDATA[Welcome to my Blog! Hi! I’m a 23 year old web developer who was born in Croatia and lives in Frankfurt, Germany. Currently I work for a…]]></description><link>https://kriskodirablog.github.io/about/</link><guid isPermaLink="false">https://kriskodirablog.github.io/about/</guid><content:encoded>&lt;h1&gt;Welcome to my Blog!&lt;/h1&gt;
-&lt;p&gt;Hi!&lt;/p&gt;
-&lt;p&gt;I’m a 23 year old web developer who was born in Croatia and lives in Frankfurt, Germany. Currently I work for a marketing agency called “Vier für Texas” in Frankfurt am Main in the furious “Bahnhofsviertel”. It’s bad but then again it’s not THAT bad. You can survive as long as you don’t stare anyone in the eyes 👀.&lt;/p&gt;
-&lt;p&gt;In my free time I enjoy making myself some Coffee with my Bialetti, writing a few blog posts here and there, riding my motorcycle if it’s not too cold, going to the gym for a workout and the spa, spending time with friends and family and obviously coding away 👨‍💻&lt;/p&gt;
-&lt;p&gt;My interests on the more technical side are Web Development (Front &amp;#x26; Back), native SWIFT development, Kotlin Android development and building my own PCs.&lt;/p&gt;
-&lt;p&gt;If you want to you can also find me here:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.instagram.com/kris.kodira/&quot;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/KrisKodira&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;Xing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Enjoy!&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><link>https://kriskodirablog.github.io/</link><guid isPermaLink="false">https://kriskodirablog.github.io/</guid><content:encoded></content:encoded></item><item><title><![CDATA[Privacy]]></title><description><![CDATA[Datenschutzerklärung 1. Datenschutz auf einen Blick Allgemeine Hinweise Die folgenden Hinweise geben einen einfachen Überblick darüber, was…]]></description><link>https://kriskodirablog.github.io/privacy-policy/</link><guid isPermaLink="false">https://kriskodirablog.github.io/privacy-policy/</guid><content:encoded>&lt;h1&gt;Datenschutzerklärung&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.e-recht24.de&quot; title=&quot;https://www.e-recht24.de&quot;&gt;https://www.e-recht24.de&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Privacy]]></title><description><![CDATA[Datenschutzerklärung 1. Datenschutz auf einen Blick Allgemeine Hinweise Die folgenden Hinweise geben einen einfachen Überblick darüber, was…]]></description><link>https://kriskodira.github.io/kriskodirablog/privacy-policy/</link><guid isPermaLink="false">https://kriskodira.github.io/kriskodirablog/privacy-policy/</guid><content:encoded>&lt;h1&gt;Datenschutzerklärung&lt;/h1&gt;
 &lt;h2&gt;1. Datenschutz auf einen Blick&lt;/h2&gt;
 &lt;h3&gt;Allgemeine Hinweise&lt;/h3&gt;
 &lt;p&gt;Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.&lt;/p&gt;
@@ -89,7 +89,7 @@ E-Mail: kriskodira@gmail.com&lt;/p&gt;
 &lt;p&gt;Die Verarbeitung der in das Newsletteranmeldeformular eingegebenen Daten erfolgt ausschließlich auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Die erteilte Einwilligung zur Speicherung der Daten, der E-Mail-Adresse sowie deren Nutzung zum Versand des Newsletters können Sie jederzeit widerrufen, etwa über den „Austragen“-Link im Newsletter. Die Rechtmäßigkeit der bereits erfolgten Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt.&lt;/p&gt;
 &lt;p&gt;Die von Ihnen zum Zwecke des Newsletter-Bezugs bei uns hinterlegten Daten werden von uns bis zu Ihrer Austragung aus dem Newsletter bei uns bzw. dem Newsletterdiensteanbieter gespeichert und nach der Abbestellung des Newsletters aus der Newsletterverteilerliste gelöscht. Daten, die zu anderen Zwecken bei uns gespeichert wurden bleiben hiervon unberührt.&lt;/p&gt;
 &lt;p&gt;Nach Ihrer Austragung aus der Newsletterverteilerliste wird Ihre E-Mail-Adresse bei uns bzw. dem Newsletterdiensteanbieter ggf. in einer Blacklist gespeichert, um künftige Mailings zu verhindern. Die Daten aus der Blacklist werden nur für diesen Zweck verwendet und nicht mit anderen Daten zusammengeführt. Dies dient sowohl Ihrem Interesse als auch unserem Interesse an der Einhaltung der gesetzlichen Vorgaben beim Versand von Newslettern (berechtigtes Interesse im Sinne des Art. 6 Abs. 1 lit. f DSGVO). Die Speicherung in der Blacklist ist zeitlich nicht befristet. &lt;strong&gt;Sie können der Speicherung widersprechen, sofern Ihre Interessen unser berechtigtes Interesse überwiegen.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Quelle: &lt;a href=&quot;https://www.e-recht24.de&quot;&gt;eRecht24&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Google Tagmanager: Cookie Consent using Google Tag Manager]]></title><description><![CDATA[Some annoying client asked you to add a Cookie Consent to his page because of the new GDPR rule in germany where you are only allowed to…]]></description><link>https://kriskodirablog.github.io/google-tagmanager-cookie-consent-using-google-tag-manager/</link><guid isPermaLink="false">https://kriskodirablog.github.io/google-tagmanager-cookie-consent-using-google-tag-manager/</guid><pubDate>Sat, 16 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Some annoying client asked you to add a Cookie Consent to his page because of the new GDPR rule in germany where you are only allowed to load tracking cookies if the user actively says “Yes”?&lt;/p&gt;
+&lt;p&gt;Quelle: &lt;a href=&quot;https://www.e-recht24.de&quot;&gt;eRecht24&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><link>https://kriskodira.github.io/kriskodirablog/</link><guid isPermaLink="false">https://kriskodira.github.io/kriskodirablog/</guid><content:encoded></content:encoded></item><item><title><![CDATA[Google Tagmanager: Cookie Consent using Google Tag Manager]]></title><description><![CDATA[Some annoying client asked you to add a Cookie Consent to his page because of the new GDPR rule in germany where you are only allowed to…]]></description><link>https://kriskodira.github.io/kriskodirablog/google-tagmanager-cookie-consent-using-google-tag-manager/</link><guid isPermaLink="false">https://kriskodira.github.io/kriskodirablog/google-tagmanager-cookie-consent-using-google-tag-manager/</guid><pubDate>Sat, 16 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Some annoying client asked you to add a Cookie Consent to his page because of the new GDPR rule in germany where you are only allowed to load tracking cookies if the user actively says “Yes”?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Don’t be scared I got your back!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Glossary:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;GTM —&gt; Google Tag Manager&lt;/p&gt;
@@ -102,7 +102,7 @@ E-Mail: kriskodira@gmail.com&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/0256e621368a23f1adaf3f9c4da04801/6164f/add-new-tag.png&quot;
+    href=&quot;/kriskodirablog/static/0256e621368a23f1adaf3f9c4da04801/6164f/add-new-tag.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -115,10 +115,10 @@ E-Mail: kriskodira@gmail.com&lt;/p&gt;
         class=&quot;gatsby-resp-image-image lazyload&quot;
         alt=&quot;add new tag&quot;
         title=&quot;add new tag&quot;
-        data-src=&quot;/static/0256e621368a23f1adaf3f9c4da04801/6164f/add-new-tag.png&quot;
-        data-srcset=&quot;/static/0256e621368a23f1adaf3f9c4da04801/5039d/add-new-tag.png 250w,
-/static/0256e621368a23f1adaf3f9c4da04801/d19c0/add-new-tag.png 500w,
-/static/0256e621368a23f1adaf3f9c4da04801/6164f/add-new-tag.png 658w&quot;
+        data-src=&quot;/kriskodirablog/static/0256e621368a23f1adaf3f9c4da04801/6164f/add-new-tag.png&quot;
+        data-srcset=&quot;/kriskodirablog/static/0256e621368a23f1adaf3f9c4da04801/5039d/add-new-tag.png 250w,
+/kriskodirablog/static/0256e621368a23f1adaf3f9c4da04801/d19c0/add-new-tag.png 500w,
+/kriskodirablog/static/0256e621368a23f1adaf3f9c4da04801/6164f/add-new-tag.png 658w&quot;
         sizes=&quot;(max-width: 658px) 100vw, 658px&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -133,7 +133,7 @@ E-Mail: kriskodira@gmail.com&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/54e11a63ccd040a28a524fbcc8adc046/edb7e/trigger-config.png&quot;
+    href=&quot;/kriskodirablog/static/54e11a63ccd040a28a524fbcc8adc046/edb7e/trigger-config.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -146,12 +146,12 @@ E-Mail: kriskodira@gmail.com&lt;/p&gt;
         class=&quot;gatsby-resp-image-image lazyload&quot;
         alt=&quot;trigger config&quot;
         title=&quot;trigger config&quot;
-        data-src=&quot;/static/54e11a63ccd040a28a524fbcc8adc046/e11df/trigger-config.png&quot;
-        data-srcset=&quot;/static/54e11a63ccd040a28a524fbcc8adc046/5039d/trigger-config.png 250w,
-/static/54e11a63ccd040a28a524fbcc8adc046/d19c0/trigger-config.png 500w,
-/static/54e11a63ccd040a28a524fbcc8adc046/e11df/trigger-config.png 1000w,
-/static/54e11a63ccd040a28a524fbcc8adc046/8e846/trigger-config.png 1500w,
-/static/54e11a63ccd040a28a524fbcc8adc046/edb7e/trigger-config.png 1884w&quot;
+        data-src=&quot;/kriskodirablog/static/54e11a63ccd040a28a524fbcc8adc046/e11df/trigger-config.png&quot;
+        data-srcset=&quot;/kriskodirablog/static/54e11a63ccd040a28a524fbcc8adc046/5039d/trigger-config.png 250w,
+/kriskodirablog/static/54e11a63ccd040a28a524fbcc8adc046/d19c0/trigger-config.png 500w,
+/kriskodirablog/static/54e11a63ccd040a28a524fbcc8adc046/e11df/trigger-config.png 1000w,
+/kriskodirablog/static/54e11a63ccd040a28a524fbcc8adc046/8e846/trigger-config.png 1500w,
+/kriskodirablog/static/54e11a63ccd040a28a524fbcc8adc046/edb7e/trigger-config.png 1884w&quot;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -213,7 +213,7 @@ E-Mail: kriskodira@gmail.com&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9935fa33ca3a48312040a47b8527f17e/05af3/cookie-overlay.png&quot;
+    href=&quot;/kriskodirablog/static/9935fa33ca3a48312040a47b8527f17e/05af3/cookie-overlay.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -226,13 +226,13 @@ E-Mail: kriskodira@gmail.com&lt;/p&gt;
         class=&quot;gatsby-resp-image-image lazyload&quot;
         alt=&quot;cookie overlay&quot;
         title=&quot;cookie overlay&quot;
-        data-src=&quot;/static/9935fa33ca3a48312040a47b8527f17e/e11df/cookie-overlay.png&quot;
-        data-srcset=&quot;/static/9935fa33ca3a48312040a47b8527f17e/5039d/cookie-overlay.png 250w,
-/static/9935fa33ca3a48312040a47b8527f17e/d19c0/cookie-overlay.png 500w,
-/static/9935fa33ca3a48312040a47b8527f17e/e11df/cookie-overlay.png 1000w,
-/static/9935fa33ca3a48312040a47b8527f17e/8e846/cookie-overlay.png 1500w,
-/static/9935fa33ca3a48312040a47b8527f17e/d40c8/cookie-overlay.png 2000w,
-/static/9935fa33ca3a48312040a47b8527f17e/05af3/cookie-overlay.png 2186w&quot;
+        data-src=&quot;/kriskodirablog/static/9935fa33ca3a48312040a47b8527f17e/e11df/cookie-overlay.png&quot;
+        data-srcset=&quot;/kriskodirablog/static/9935fa33ca3a48312040a47b8527f17e/5039d/cookie-overlay.png 250w,
+/kriskodirablog/static/9935fa33ca3a48312040a47b8527f17e/d19c0/cookie-overlay.png 500w,
+/kriskodirablog/static/9935fa33ca3a48312040a47b8527f17e/e11df/cookie-overlay.png 1000w,
+/kriskodirablog/static/9935fa33ca3a48312040a47b8527f17e/8e846/cookie-overlay.png 1500w,
+/kriskodirablog/static/9935fa33ca3a48312040a47b8527f17e/d40c8/cookie-overlay.png 2000w,
+/kriskodirablog/static/9935fa33ca3a48312040a47b8527f17e/05af3/cookie-overlay.png 2186w&quot;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -284,7 +284,7 @@ E-Mail: kriskodira@gmail.com&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8946d6374b2602a1e4cd2eb5d6727d3a/f1791/tag-not-fired.png&quot;
+    href=&quot;/kriskodirablog/static/8946d6374b2602a1e4cd2eb5d6727d3a/f1791/tag-not-fired.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -297,13 +297,13 @@ E-Mail: kriskodira@gmail.com&lt;/p&gt;
         class=&quot;gatsby-resp-image-image lazyload&quot;
         alt=&quot;tag not fired&quot;
         title=&quot;tag not fired&quot;
-        data-src=&quot;/static/8946d6374b2602a1e4cd2eb5d6727d3a/e11df/tag-not-fired.png&quot;
-        data-srcset=&quot;/static/8946d6374b2602a1e4cd2eb5d6727d3a/5039d/tag-not-fired.png 250w,
-/static/8946d6374b2602a1e4cd2eb5d6727d3a/d19c0/tag-not-fired.png 500w,
-/static/8946d6374b2602a1e4cd2eb5d6727d3a/e11df/tag-not-fired.png 1000w,
-/static/8946d6374b2602a1e4cd2eb5d6727d3a/8e846/tag-not-fired.png 1500w,
-/static/8946d6374b2602a1e4cd2eb5d6727d3a/d40c8/tag-not-fired.png 2000w,
-/static/8946d6374b2602a1e4cd2eb5d6727d3a/f1791/tag-not-fired.png 3812w&quot;
+        data-src=&quot;/kriskodirablog/static/8946d6374b2602a1e4cd2eb5d6727d3a/e11df/tag-not-fired.png&quot;
+        data-srcset=&quot;/kriskodirablog/static/8946d6374b2602a1e4cd2eb5d6727d3a/5039d/tag-not-fired.png 250w,
+/kriskodirablog/static/8946d6374b2602a1e4cd2eb5d6727d3a/d19c0/tag-not-fired.png 500w,
+/kriskodirablog/static/8946d6374b2602a1e4cd2eb5d6727d3a/e11df/tag-not-fired.png 1000w,
+/kriskodirablog/static/8946d6374b2602a1e4cd2eb5d6727d3a/8e846/tag-not-fired.png 1500w,
+/kriskodirablog/static/8946d6374b2602a1e4cd2eb5d6727d3a/d40c8/tag-not-fired.png 2000w,
+/kriskodirablog/static/8946d6374b2602a1e4cd2eb5d6727d3a/f1791/tag-not-fired.png 3812w&quot;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -323,7 +323,7 @@ if(revokeConsentLink != null){
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Once you click the link in the privacy policy it deletes the cookies and the decision is revoked. Now when the user changes the page he is presented with the cookie consent again and he can decide not to be tracked. You should also keep in mind to disable the overlay for the Privacy Policy and all the Legal information with a SASS (CSS) style. Just give your Privacy Policy page and your Legal Information page a class on the body and hide the dim there with some css.&lt;/p&gt;
 &lt;h2&gt;Thats its!&lt;/h2&gt;
-&lt;p&gt;Now you should be safe with the new GDPR rule. Keep in mind that I’m not legally responsive if you still get striked and the rule changes again. This is just a tip on my side how to handle this new rule.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Keeping uo with new coding standards, libraries and much more]]></title><description><![CDATA[Every day you find out about a new JS library and you are wondering where it came from? Ultimate pages to follow for keeping up It’s always…]]></description><link>https://kriskodirablog.github.io/keeping-uo-with-new-coding-standards-libraries-and-much-more/</link><guid isPermaLink="false">https://kriskodirablog.github.io/keeping-uo-with-new-coding-standards-libraries-and-much-more/</guid><pubDate>Sat, 16 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Every day you find out about a new JS library and you are wondering where it came from?&lt;/p&gt;
+&lt;p&gt;Now you should be safe with the new GDPR rule. Keep in mind that I’m not legally responsive if you still get striked and the rule changes again. This is just a tip on my side how to handle this new rule.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Keeping up with new coding standards, libraries and much more]]></title><description><![CDATA[Every day you find out about a new JS library and you are wondering where it came from? Ultimate pages to follow for keeping up It’s always…]]></description><link>https://kriskodira.github.io/kriskodirablog/keeping-uo-with-new-coding-standards-libraries-and-much-more/</link><guid isPermaLink="false">https://kriskodira.github.io/kriskodirablog/keeping-uo-with-new-coding-standards-libraries-and-much-more/</guid><pubDate>Sat, 16 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Every day you find out about a new JS library and you are wondering where it came from?&lt;/p&gt;
 &lt;h2&gt;Ultimate pages to follow for keeping up&lt;/h2&gt;
 &lt;p&gt;It’s always good to check some articles on pages like these:&lt;/p&gt;
 &lt;ul&gt;
@@ -344,4 +344,4 @@ if(revokeConsentLink != null){
 &lt;li&gt;Feel stuck at work? Get a new job even if you’re not 100% qualified – you can learn so much on the job&lt;/li&gt;
 &lt;li&gt;Join Telegram groups with other developers or Discord channels that focus on development. Check out what they are talking about and also bring up some topics you’re interested in.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;To be continued…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gitlab CI / CD Basics]]></title><link>https://kriskodirablog.github.io/gitlab-ci-cd-basics/</link><guid isPermaLink="false">https://kriskodirablog.github.io/gitlab-ci-cd-basics/</guid><pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Craft CMS 3: Simple language redirect]]></title><link>https://kriskodirablog.github.io/craft-cms-3-simple-language-redirect/</link><guid isPermaLink="false">https://kriskodirablog.github.io/craft-cms-3-simple-language-redirect/</guid><pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[My opinion on where to start if you want to become a developer]]></title><link>https://kriskodirablog.github.io/my-opinion-on-where-to-start-if-you-want-to-become-a-developer/</link><guid isPermaLink="false">https://kriskodirablog.github.io/my-opinion-on-where-to-start-if-you-want-to-become-a-developer/</guid><pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Tips on landing your first development job]]></title><link>https://kriskodirablog.github.io/tips-on-landing-your-first-development-job/</link><guid isPermaLink="false">https://kriskodirablog.github.io/tips-on-landing-your-first-development-job/</guid><pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[What to plan before starting to code a website?]]></title><link>https://kriskodirablog.github.io/what-to-plan-before-starting-to-code-a-website/</link><guid isPermaLink="false">https://kriskodirablog.github.io/what-to-plan-before-starting-to-code-a-website/</guid><pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item></channel></rss>
+&lt;p&gt;To be continued…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Craft CMS 3: Simple language redirect]]></title><link>https://kriskodira.github.io/kriskodirablog/craft-cms-3-simple-language-redirect/</link><guid isPermaLink="false">https://kriskodira.github.io/kriskodirablog/craft-cms-3-simple-language-redirect/</guid><pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Tips on landing your first development job]]></title><link>https://kriskodira.github.io/kriskodirablog/tips-on-landing-your-first-development-job/</link><guid isPermaLink="false">https://kriskodira.github.io/kriskodirablog/tips-on-landing-your-first-development-job/</guid><pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[My opinion on where to start if you want to become a developer]]></title><link>https://kriskodira.github.io/kriskodirablog/my-opinion-on-where-to-start-if-you-want-to-become-a-developer/</link><guid isPermaLink="false">https://kriskodira.github.io/kriskodirablog/my-opinion-on-where-to-start-if-you-want-to-become-a-developer/</guid><pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Gitlab CI / CD Basics]]></title><link>https://kriskodira.github.io/kriskodirablog/gitlab-ci-cd-basics/</link><guid isPermaLink="false">https://kriskodira.github.io/kriskodirablog/gitlab-ci-cd-basics/</guid><pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[What to plan before starting to code a website?]]></title><link>https://kriskodira.github.io/kriskodirablog/what-to-plan-before-starting-to-code-a-website/</link><guid isPermaLink="false">https://kriskodira.github.io/kriskodirablog/what-to-plan-before-starting-to-code-a-website/</guid><pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item></channel></rss>
