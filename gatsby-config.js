@@ -1,9 +1,10 @@
 module.exports = {
+  pathPrefix: `/kriskodirablog`,
   siteMetadata: {
     title: `Kriskodira Blog`,
     author: `KrisKodira`,
     description: `Fresh blog made by Kris about development and other cool stuff =]`,
-    siteUrl: `https://kriskodirablog.github.io`,
+    siteUrl: `https://kriskodira.github.io/kriskodirablog`,
     social: {
       codepen: `kriskodira`,
       github: `kriskodira`,
