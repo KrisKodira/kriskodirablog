@@ -150,7 +150,7 @@ As you can see below the "Tags not fired" headline, none of the tags we created 
 
 ## Making the consented cookie revokeable
 
-In your privacy policy create a link with an anchor called something like _#_revokecookieconsent. 
+In your privacy policy create a link with an anchor called something like _#_revokecookieconsent.
 
 Now after your document has been loaded in your JS add the following snippet:
 
@@ -162,3 +162,9 @@ Now after your document has been loaded in your JS add the following snippet:
         document.cookie = 'cookieDesicionHasBeenMade=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/'; 
       })
     }
+
+Once you click the link in the privacy policy it deletes the cookies and the decision is revoked. Now when the user changes the page he is presented with the cookie consent again and he can decide not to be tracked. You should also keep in mind to disable the overlay for the Privacy Policy and all the Legal information with a SASS (CSS) style. Just give your Privacy Policy page and your Legal Information page a class on the body and hide the dim there with some css.
+
+## Thats its!
+
+Now you should be safe with the new GDPR rule. Keep in mind that I'm not legally responsive if you still get striked and the rule changes again. This is just a tip on my side how to handle this new rule.
