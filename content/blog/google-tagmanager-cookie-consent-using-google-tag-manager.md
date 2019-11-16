@@ -4,7 +4,7 @@ title: 'Google Tagmanager: Cookie Consent using Google Tag Manager'
 category: Code
 description: How to let your users choose if they want to be tracked.
 picture: charles-Ms9xBg3Gtr8-unsplash.jpg
-featured_post: false
+featured_post: true
 gallery: []
 published: true
 

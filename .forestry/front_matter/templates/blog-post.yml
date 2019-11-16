@@ -63,8 +63,8 @@ fields:
   type: boolean
   label: Published
 pages:
-- content/blog/gitlab-ci-cd-basics.md
 - content/blog/google-tagmanager-cookie-consent-using-google-tag-manager.md
+- content/blog/gitlab-ci-cd-basics.md
 - content/blog/my-opinion-on-where-to-start-if-you-want-to-become-a-developer.md
 - content/blog/craft-cms-3-simple-language-redirect.md
 - content/blog/tips-on-landing-your-first-development-job.md
