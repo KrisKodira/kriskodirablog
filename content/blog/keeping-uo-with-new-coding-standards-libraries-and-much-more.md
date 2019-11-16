@@ -10,3 +10,15 @@ gallery: []
 published: true
 
 ---
+Every day you find out about a new JS library and you are wondering where it came from?
+
+## Ultimate pages to follow for keeping up
+
+It's always good to check some articles on pages like these:
+
+* [Hackernoon](Hackernoon)
+
+  Why Hackernoon?
+
+  You get news and tutorials from all kinds of things. Starting with business tips all the way to new coding standards, AI and coding philosophy.
+* 
