@@ -19,8 +19,8 @@ class NotFoundPage extends React.Component {
           </div>
           <div className="content-wrap">
             <p>
-              Sadly we can't find the page you're looking for :(
-              <Link to="/">Go back to Home</Link>
+              Sadly we can't find the page you're looking for :(<br/>
+              <Link to="/"><b>Go back to Home</b></Link>
             </p>
           </div>
         </div>
