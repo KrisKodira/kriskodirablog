@@ -17,5 +17,9 @@ jobs:
     - name: NPM run build
       run: npm run build
     
-    - name: Publish to docs for GitHub Pages
-      run: mv ./public ./docs
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./public
