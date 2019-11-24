@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes, { func } from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import { getImageUrl } from "./getImageUrl.js"
+import { getImageUrl } from "./getImageUrl"
 
 function SEO({description, lang, meta, title, image }) {
   let metaImage;
