@@ -8,6 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Install NPM
+      run: npm install -g npm
+      
     - name: NPM install
       run: npm i
       
