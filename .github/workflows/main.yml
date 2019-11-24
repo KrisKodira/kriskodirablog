@@ -9,13 +9,13 @@ jobs:
 
     steps:
     - name: NPM install
-    - run: npm i
+      run: npm i
       
     - name: NPM run build
-    - run: npm run build
+      run: npm run build
     
     - name: Gatsby build
-    - run: gatsby build --prefix-paths
+      run: gatsby build --prefix-paths
     
     - name: Publish to docs for GitHub Pages
-    - run: mv ./public ./docs
+      run: mv ./public ./docs
