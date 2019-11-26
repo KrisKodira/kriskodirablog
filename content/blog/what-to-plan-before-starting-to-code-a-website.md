@@ -7,7 +7,7 @@ description: With a little preperation that can take as little as 30 minutes you
 picture: "/photo-1473163928189-364b2c4e1135.webp"
 featured_post: true
 gallery: []
-published: false
+published: true
 
 ---
 What you should plan before starting to code a website:
