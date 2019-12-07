@@ -63,6 +63,7 @@ fields:
   type: boolean
   label: Published
 pages:
+- content/blog/how-to-make-your-code-look-attractive.md
 - content/blog/what-to-plan-before-starting-to-code-a-website.md
 - content/blog/keeping-uo-with-new-coding-standards-libraries-and-much-more.md
 - content/blog/google-tagmanager-cookie-consent-using-google-tag-manager.md
