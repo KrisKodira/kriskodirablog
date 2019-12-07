@@ -7,7 +7,7 @@ description: Everyone has heard of it and fears it. SPAGHETTI CODE. Bohoooo. Her
 picture: "/jakub-kapusnak-tEVisOXz26Y-unsplash.jpg"
 featured_post: true
 gallery: []
-published: false
+published: true
 
 ---
 ## Set some formatting rules
@@ -22,4 +22,8 @@ Use meaningful names for your variables. If you want to set a range for a date i
 
 Modularize your code and DRY (Don't Repeat Yourself) if you have footer on your website you shouldn't just copy and paste it to all your pages you should make a seperate file just for your footer and then include that file on each page. Because now if you have to change a link in your footer you only have to do it in one place instead of twenty.
 
-Make your functions only do one thing. Let's say you want to convert a String to lowercase and add a substring to it. Instead of making one function that does both these things you should make two seperate functions that do what you want combined. This makes your lowercase function be reusable for other code parts where you don't want to add a substring.
+Make your functions only do one thing. Let's say you want to convert a String to lowercase and add a substring to it. Instead of making one function that does both these things you should make two seperate functions that do what you want combined. This makes your lowercase function be reusable for other code parts where you don't want to add a substring. 
+
+Comment your code and especially bigger functions and code blocks. Don't comment ever single step but the bigger code clusters should have comments explaining what they do. It will help you in the future if you come back to the code and it will help other programmers that have to work with your code. Use "C Style" Comments to comment functions, the parameters you pass to the function and the output your function returns.
+
+Thats my take on clean code!
