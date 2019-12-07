@@ -22,3 +22,4 @@ Use meaningful names for your variables. If you want to set a range for a date i
 
 Modularize your code and DRY (Don't Repeat Yourself) if you have footer on your website you shouldn't just copy and paste it to all your pages you should make a seperate file just for your footer and then include that file on each page. Because now if you have to change a link in your footer you only have to do it in one place instead of twenty.
 
+Make your functions only do one thing. Let's say you want to convert a String to lowercase and add a substring to it. Instead of making one function that does both these things you should make two seperate functions that do what you want combined. This makes your lowercase function be reusable for other code parts where you don't want to add a substring.
